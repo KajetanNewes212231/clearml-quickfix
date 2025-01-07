@@ -1,8 +1,6 @@
 from stable_baselines3 import PPO
 import gym
 import time
-import wandb
-from wandb.integration.sb3 import WandbCallback
 import os
 from clearml import Task
 
@@ -16,19 +14,7 @@ task.set_base_docker('deanis/2023y2b-rl:latest')
 #setting the task to run remotely on the default queue
 task.execute_remotely(queue_name="default")
 
-os.environ['WANDB_API_KEY'] = 'fefb8c486145c4bbe0597532d8a05b449a49eb91'
-
-
 env = gym.make('Pendulum-v1',g=9.81)
-
-# initialize wandb project
-run = wandb.init(project="sb3_pendulum_demo")
-
-# create wandb callback
-wandb_callback = WandbCallback(model_save_freq=1000,
-                                model_save_path=f"models/{run.id}",
-                                verbose=2,
-                                )
 
 import argparse
 
