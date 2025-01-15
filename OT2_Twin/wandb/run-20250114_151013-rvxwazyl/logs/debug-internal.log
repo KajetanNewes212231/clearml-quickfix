@@ -1,0 +1,18 @@
+{"time":"2025-01-14T15:10:13.7768488+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-14T15:10:13.7773588+01:00","level":"INFO","msg":"created symlink","path":"E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\wandb\\run-20250114_151013-rvxwazyl\\logs\\debug-core.log"}
+{"time":"2025-01-14T15:10:14.0834216+01:00","level":"INFO","msg":"created new stream","id":"rvxwazyl"}
+{"time":"2025-01-14T15:10:14.0834216+01:00","level":"INFO","msg":"stream: started","id":"rvxwazyl"}
+{"time":"2025-01-14T15:10:14.0834216+01:00","level":"INFO","msg":"handler: started","stream_id":"rvxwazyl"}
+{"time":"2025-01-14T15:10:14.0834216+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rvxwazyl"}
+{"time":"2025-01-14T15:10:14.0834216+01:00","level":"INFO","msg":"sender: started","stream_id":"rvxwazyl"}
+{"time":"2025-01-14T15:10:14.3683797+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-14T15:10:26.405875+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-14T15:10:26.406475+01:00","level":"ERROR","msg":"tensorboard: error creating symlink","target":"E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\runs\\rvxwazyl\\runs\\rvxwazyl_0\\events.out.tfevents.1736863816.DESKTOP-1V2MNDF.32804.0","symlink":"E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\wandb\\run-20250114_151013-rvxwazyl\\files\\runs\\rvxwazyl\\runs\\rvxwazyl_0\\events.out.tfevents.1736863816.DESKTOP-1V2MNDF.32804.0","error":"symlink E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\runs\\rvxwazyl\\runs\\rvxwazyl_0\\events.out.tfevents.1736863816.DESKTOP-1V2MNDF.32804.0 E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\wandb\\run-20250114_151013-rvxwazyl\\files\\runs\\rvxwazyl\\runs\\rvxwazyl_0\\events.out.tfevents.1736863816.DESKTOP-1V2MNDF.32804.0: A required privilege is not held by the client."}
+{"time":"2025-01-14T15:11:02.4083618+01:00","level":"INFO","msg":"stream: closing","id":"rvxwazyl"}
+{"time":"2025-01-14T15:11:02.4083618+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-14T15:11:02.4088738+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-14T15:11:04.0287138+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-14T15:11:04.2715806+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rvxwazyl"}
+{"time":"2025-01-14T15:11:04.2715806+01:00","level":"INFO","msg":"handler: closed","stream_id":"rvxwazyl"}
+{"time":"2025-01-14T15:11:04.2715806+01:00","level":"INFO","msg":"sender: closed","stream_id":"rvxwazyl"}
+{"time":"2025-01-14T15:11:04.2715806+01:00","level":"INFO","msg":"stream: closed","id":"rvxwazyl"}

@@ -1,0 +1,18 @@
+{"time":"2025-01-14T15:32:39.5931946+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-14T15:32:39.5931946+01:00","level":"INFO","msg":"created symlink","path":"E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\wandb\\run-20250114_153239-3a3j3ir6\\logs\\debug-core.log"}
+{"time":"2025-01-14T15:32:39.7183943+01:00","level":"INFO","msg":"created new stream","id":"3a3j3ir6"}
+{"time":"2025-01-14T15:32:39.7183943+01:00","level":"INFO","msg":"stream: started","id":"3a3j3ir6"}
+{"time":"2025-01-14T15:32:39.7183943+01:00","level":"INFO","msg":"handler: started","stream_id":"3a3j3ir6"}
+{"time":"2025-01-14T15:32:39.7183943+01:00","level":"INFO","msg":"sender: started","stream_id":"3a3j3ir6"}
+{"time":"2025-01-14T15:32:39.7183943+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"3a3j3ir6"}
+{"time":"2025-01-14T15:32:40.0076706+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-14T15:32:49.3127388+01:00","level":"INFO","msg":"stream: closing","id":"3a3j3ir6"}
+{"time":"2025-01-14T15:32:49.3127388+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-14T15:32:49.3132489+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-14T15:32:51.5820552+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-14T15:32:51.5837671+01:00","level":"ERROR","msg":"tensorboard: error creating symlink","target":"E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\runs\\3a3j3ir6\\runs\\3a3j3ir6_0\\events.out.tfevents.1736865161.DESKTOP-1V2MNDF.34776.0","symlink":"E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\wandb\\run-20250114_153239-3a3j3ir6\\files\\runs\\3a3j3ir6\\runs\\3a3j3ir6_0\\events.out.tfevents.1736865161.DESKTOP-1V2MNDF.34776.0","error":"symlink E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\runs\\3a3j3ir6\\runs\\3a3j3ir6_0\\events.out.tfevents.1736865161.DESKTOP-1V2MNDF.34776.0 E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\wandb\\run-20250114_153239-3a3j3ir6\\files\\runs\\3a3j3ir6\\runs\\3a3j3ir6_0\\events.out.tfevents.1736865161.DESKTOP-1V2MNDF.34776.0: A required privilege is not held by the client."}
+{"time":"2025-01-14T15:32:53.0431536+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-14T15:32:53.38912+01:00","level":"INFO","msg":"handler: closed","stream_id":"3a3j3ir6"}
+{"time":"2025-01-14T15:32:53.38912+01:00","level":"INFO","msg":"sender: closed","stream_id":"3a3j3ir6"}
+{"time":"2025-01-14T15:32:53.38912+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3a3j3ir6"}
+{"time":"2025-01-14T15:32:53.38912+01:00","level":"INFO","msg":"stream: closed","id":"3a3j3ir6"}

@@ -1,0 +1,51 @@
+2025-01-14 15:35:00,663 INFO    MainThread:21316 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2025-01-14 15:35:00,663 INFO    MainThread:21316 [wandb_setup.py:_flush():68] Configure stats pid to 21316
+2025-01-14 15:35:00,664 INFO    MainThread:21316 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Kajetan\.config\wandb\settings
+2025-01-14 15:35:00,664 INFO    MainThread:21316 [wandb_setup.py:_flush():68] Loading settings from E:\Users\Kajetan\Documents\GitHub\2024-25b-fai2-adsai-KajetanNewes212231\OT2_Twin\wandb\settings
+2025-01-14 15:35:00,664 INFO    MainThread:21316 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-14 15:35:00,664 INFO    MainThread:21316 [wandb_init.py:_log_setup():528] Logging user logs to E:\Users\Kajetan\Documents\GitHub\2024-25b-fai2-adsai-KajetanNewes212231\OT2_Twin\wandb\run-20250114_153500-k6sydob5\logs\debug.log
+2025-01-14 15:35:00,664 INFO    MainThread:21316 [wandb_init.py:_log_setup():529] Logging internal logs to E:\Users\Kajetan\Documents\GitHub\2024-25b-fai2-adsai-KajetanNewes212231\OT2_Twin\wandb\run-20250114_153500-k6sydob5\logs\debug-internal.log
+2025-01-14 15:35:00,664 INFO    MainThread:21316 [wandb_init.py:init():644] calling init triggers
+2025-01-14 15:35:00,664 INFO    MainThread:21316 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {}
+2025-01-14 15:35:00,664 INFO    MainThread:21316 [wandb_init.py:init():680] starting backend
+2025-01-14 15:35:00,664 INFO    MainThread:21316 [wandb_init.py:init():684] sending inform_init request
+2025-01-14 15:35:00,676 INFO    MainThread:21316 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-01-14 15:35:00,676 INFO    MainThread:21316 [wandb_init.py:init():697] backend started and connected
+2025-01-14 15:35:00,677 INFO    MainThread:21316 [wandb_init.py:init():790] updated telemetry
+2025-01-14 15:35:00,677 INFO    MainThread:21316 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2025-01-14 15:35:01,043 INFO    MainThread:21316 [wandb_init.py:init():874] starting run threads in backend
+2025-01-14 15:35:01,283 INFO    MainThread:21316 [wandb_run.py:_console_start():2374] atexit reg
+2025-01-14 15:35:01,284 INFO    MainThread:21316 [wandb_run.py:_redirect():2224] redirect: wrap_raw
+2025-01-14 15:35:01,284 INFO    MainThread:21316 [wandb_run.py:_redirect():2289] Wrapping output streams.
+2025-01-14 15:35:01,284 INFO    MainThread:21316 [wandb_run.py:_redirect():2314] Redirects installed.
+2025-01-14 15:35:01,286 INFO    MainThread:21316 [wandb_init.py:init():916] run started, returning control to user process
+2025-01-14 15:35:02,803 INFO    MainThread:21316 [wandb_run.py:_tensorboard_callback():1436] tensorboard callback: runs/k6sydob5\runs/k6sydob5_0, True
+2025-01-14 15:35:02,808 INFO    MainThread:21316 [wandb_run.py:_config_callback():1279] config_cb None None {'algo': 'PPO', 'policy_class': "<class 'stable_baselines3.common.policies.ActorCriticPolicy'>", 'device': 'cpu', 'verbose': 1, 'policy_kwargs': '{}', 'num_timesteps': 0, '_total_timesteps': 100000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1736865302615648700, 'learning_rate': 0.0003, 'tensorboard_log': 'runs/k6sydob5', '_last_obs': '[[0.073     0.0895    0.1195    0.6057298 0.5874518 0.3393792]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x000001E0CD09D330>', '_vec_normalize_env': 'None', 'observation_space': 'Box(-inf, inf, (6,), float32)', 'action_space': 'Box([-0.187  -0.1705  0.119 ], [0.253  0.2195 0.2895], (3,), float32)', 'n_envs': 1, 'n_steps': 2048, 'gamma': 0.99, 'gae_lambda': 0.95, 'ent_coef': 0.0, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'rollout_buffer_class': "<class 'stable_baselines3.common.buffers.RolloutBuffer'>", 'rollout_buffer_kwargs': '{}', 'batch_size': 64, 'n_epochs': 10, 'clip_range': '<function get_schedule_fn.<locals>.<lambda> at 0x000001E0C635B0A0>', 'clip_range_vf': 'None', 'normalize_advantage': 'True', 'target_kl': 'None', 'lr_schedule': '<function get_schedule_fn.<locals>.<lambda> at 0x000001E0CCFEBEB0>', 'rollout_buffer': '<stable_baselines3.common.buffers.RolloutBuffer object at 0x000001E0CD09D390>', 'policy': 'ActorCriticPolicy(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (pi_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (vf_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (mlp_extractor): MlpExtractor(\n    (policy_net): Sequential(\n      (0): Linear(in_features=6, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n    (value_net): Sequential(\n      (0): Linear(in_features=6, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n  )\n  (action_net): Linear(in_features=64, out_features=3, bias=True)\n  (value_net): Linear(in_features=64, out_features=1, bias=True)\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x000001E0F8BCD8A0>'}
+2025-01-14 15:35:18,319 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:35:33,930 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:35:50,426 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:36:06,145 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:36:22,594 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:36:38,263 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:36:54,677 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:37:10,330 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:37:26,725 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:37:42,407 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:37:58,885 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:38:14,538 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:38:31,022 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:38:46,694 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:39:03,162 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:39:18,840 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:39:35,265 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:39:50,924 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:40:07,373 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:40:23,028 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:40:39,479 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:40:55,132 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:41:11,607 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:41:27,294 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:41:43,761 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:41:59,427 INFO    MainThread:21316 [sb3.py:save_model():147] Saving model checkpoint to models/k6sydob5\model.zip
+2025-01-14 15:42:05,621 WARNING MsgRouterThr:21316 [router.py:message_loop():75] message_loop has been closed

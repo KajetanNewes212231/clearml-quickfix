@@ -1,0 +1,17 @@
+{"time":"2025-01-14T16:58:15.2810374+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-14T16:58:15.2810374+01:00","level":"INFO","msg":"created symlink","path":"E:\\Users\\Kajetan\\Documents\\GitHub\\2024-25b-fai2-adsai-KajetanNewes212231\\OT2_Twin\\wandb\\run-20250114_165815-mxfo40cn\\logs\\debug-core.log"}
+{"time":"2025-01-14T16:58:15.4071721+01:00","level":"INFO","msg":"created new stream","id":"mxfo40cn"}
+{"time":"2025-01-14T16:58:15.4071721+01:00","level":"INFO","msg":"stream: started","id":"mxfo40cn"}
+{"time":"2025-01-14T16:58:15.4071721+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mxfo40cn"}
+{"time":"2025-01-14T16:58:15.4071721+01:00","level":"INFO","msg":"handler: started","stream_id":"mxfo40cn"}
+{"time":"2025-01-14T16:58:15.4071721+01:00","level":"INFO","msg":"sender: started","stream_id":"mxfo40cn"}
+{"time":"2025-01-14T16:58:15.7730855+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-14T16:58:27.3946137+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-14T16:59:00.6605421+01:00","level":"INFO","msg":"stream: closing","id":"mxfo40cn"}
+{"time":"2025-01-14T16:59:00.6605421+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-14T16:59:00.661053+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-14T16:59:01.6041849+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-14T16:59:01.7832813+01:00","level":"INFO","msg":"handler: closed","stream_id":"mxfo40cn"}
+{"time":"2025-01-14T16:59:01.7832813+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mxfo40cn"}
+{"time":"2025-01-14T16:59:01.7832813+01:00","level":"INFO","msg":"sender: closed","stream_id":"mxfo40cn"}
+{"time":"2025-01-14T16:59:01.7837921+01:00","level":"INFO","msg":"stream: closed","id":"mxfo40cn"}
